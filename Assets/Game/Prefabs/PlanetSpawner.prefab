@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3712239404805927254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3715739245556767644}
+  - component: {fileID: 2040311581290360880}
+  m_Layer: 0
+  m_Name: PlanetSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3715739245556767644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712239404805927254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2040311581290360880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712239404805927254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b598a8b3db8d41344b7e61dbc7f4dc37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Planet1: {fileID: 4598692641295204, guid: 6f6200c9f8133b3479e015b30c25a4e0, type: 3}
+  Planet2: {fileID: 4225342862600738, guid: e6b64a961654d564d95e6df2b6136e9e, type: 3}
+  Planet3: {fileID: 4571719160245072, guid: 5a6220724453d7e4d891305e008be98c, type: 3}
+  Planet4: {fileID: 4637995295465972, guid: 6f6a2f673604cdf4697a77cb4ad08751, type: 3}
+  Planet5: {fileID: 4928633318575202, guid: 484d38427a0ba0f4d8cb441e6eef7c62, type: 3}
+  Planet6: {fileID: 4687219053722620, guid: 0c15739a7861190418bb3bf4d20fbc27, type: 3}
+  Planet7: {fileID: 4009955905423262, guid: 64ae3a07f5b2b40449a3e4eb3c1804ca, type: 3}
+  Planet8: {fileID: 4912781092111386, guid: 44b11c855b2e28c4d97577d966e45236, type: 3}
+  Planet9: {fileID: 4125071044338392, guid: cd44b5bd43d0e5247ab1373391e2bd17, type: 3}
+  Planet10: {fileID: 4581280878649260, guid: 142df2703269e424cb799982a34327ec, type: 3}
+  Planet11: {fileID: 4428860687156642, guid: 00cbbb3475b1b0640a802c21a905203b, type: 3}
+  Planet12: {fileID: 4078426588971646, guid: 9e8f504eea9c75f4c855f7bff7ff5903, type: 3}
+  Planet13: {fileID: 4006107773484516, guid: 7311d170d172b8443ae175801f682aad, type: 3}
+  Planet14: {fileID: 4036631883583960, guid: e4cc86a2911f81c4cafc54b909e0f521, type: 3}
+  Planet15: {fileID: 4438662933532112, guid: bd61b87215609e44e8a62754d8a58047, type: 3}
+  Planet16: {fileID: 4378962748521394, guid: f42e8fb7bcfdc474a979ee5023161dc3, type: 3}
+  Planet17: {fileID: 4356846711594052, guid: 2b8369136137d35498d9bcfb7b719768, type: 3}
+  Planet18: {fileID: 4564722496957042, guid: f60e024907e0c014bbd68a3e3631a6eb, type: 3}
+  Planet19: {fileID: 4803114391340516, guid: b278f68fba1c22a4b824269bcc598f19, type: 3}
+  Planet20: {fileID: 4648412045605558, guid: 8b670f55ada76fc40bb3ea2c52efe21a, type: 3}
+  Sun: {fileID: 438282, guid: 9a1096a62ee865344a0549a465aa2f3e, type: 3}
+  shapeModifiers: {x: 3, y: 3, z: 3}
+  PlanetCount: 10
+  range: 5000
+  randomRotation: 1
+  scaleRange: {x: 50, y: 50}
+  velocity: 0
+  angularVelocity: 0
+  scaleMass: 1
